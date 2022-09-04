@@ -1,0 +1,13 @@
+package com.uuidpk;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class PrimaryKeyUuidDemoAppApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PrimaryKeyUuidDemoAppApplication.class, args);
+	}
+
+}
